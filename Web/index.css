@@ -1,0 +1,150 @@
+* {
+  font-family: "Roboto";
+}
+
+body {
+  background-color: rgb(32, 32, 32);
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+br {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+h1 {
+  color: white;
+}
+
+.left-display {
+  display: none;
+}
+
+.invite-panel {
+  margin-top: 100px;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.create-title {
+  text-align: center;
+}
+
+.invite-code {
+  text-align: center;
+  font-size: 28px;
+}
+
+.invite-go-button {
+  font-size: 28px;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.invite-create-button {
+  font-size: 28px;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.bottom-right-panel {
+  position: fixed;
+  background-color: rgb(29, 29, 29);
+  width: 100%;
+  height: 100%;
+  top: 350px;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.or-title {
+  text-align: center;
+  margin-top: -20px;
+}
+
+@media only screen and (min-width: 1600px) {
+  .left-display {
+    display: block;
+    position: fixed;
+    background-color: rgb(33, 69, 124);
+    height: 100%;
+    width: 100%;
+    right: 720px;
+    top: 0;
+    bottom: 0;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+  }
+
+  .left-display img {
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .main-title {
+    position: absolute;
+    text-align: right;
+    top: 300px;
+    right: 340px;
+  }
+
+  .invite-code {
+    position: absolute;
+    margin-left: 325px;
+    top: 360px;
+    right: 150px;
+    width: 500px;
+  }
+
+  .invite-go-button {
+    position: absolute;
+    top: 352px;
+    width: 60px;
+    right: 80px;
+  }
+
+  .invite-create-button {
+    position: absolute;
+    top: 610px;
+    width: 570px;
+    right: 80px;
+  }
+
+  .create-title {
+    position: absolute;
+    top: 560px;
+    text-align: right;
+    right: 420px;
+  }
+
+  .right-line {
+    position: absolute;
+    right: 8px;
+    width: 702px;
+  }
+
+  .bottom-right-panel {
+    top: 500px;
+  }
+}
